@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.Writer;
 
 public class Sec {
-    private Cos cos;
+    private final Cos cos;
 
     public Sec(Cos cos) {
         this.cos = cos;
