@@ -12,7 +12,7 @@ import java.io.Reader;
 
 class FunctionTest {
 
-    double functionEps = 0.01;
+    static double functionEps = 0.1;
     double eps = 0.1;
 
     static Sec secMock;
